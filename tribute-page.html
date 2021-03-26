@@ -10,24 +10,10 @@
 
     <style>
 
-        html{
-            background: linear-gradient(to right top, #6d7683, #3698b4, #00bcb8, #00da85, #a8eb12) no-repeat center center fixed; 
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
-            background-size: cover;
-        }
-
         body{
-            font-family: 'Nunito', sans-serif ;
+            font-family: 'Nunito', sans-serif;
+            background-image: linear-gradient(to right top, #6d7683, #3698b4, #00bcb8, #00da85, #a8eb12);
             font-size: 1.5rem;
-            /* width: 100%; */
-            margin: 0;
-        }
-
-
-        #main{
-            margin-bottom: 100px;;
         }
 
         #title{
@@ -36,7 +22,8 @@
         }
 
         #img-div{
-            text-align: center;   
+            text-align: center;
+            
         }
 
         #image{ 
@@ -48,46 +35,36 @@
             width: 25rem;
             height: auto;
             max-width: 100%;
-            /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
         }
 
         #img-caption{
             border-radius: 10px;
-            width: 100%;
+            width:50%;
             height: auto;
-            margin-top: 0;
-            margin-bottom: 3rem;
-            margin-left: auto;
-            margin-right: auto;
+            margin: 0 auto 3rem auto;
             font-weight: bold;
-           
+            font-family: ;
+            font-size: 3rem;
             text-transform: uppercase;
             align-items: center;
             transition: .2s ease-in-out;
-            /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-             */
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            
         }
 
         #img-caption:hover{
             color:red;
             transition: 0.5s;
             transform: scale(1.1);
+            
+
         }
 
         #tribute-info{
-            max-width: 100%;
             align-items: center;
-            margin-left: 7rem;
-            margin-right: 7rem;
+            text-align: justify;
+            margin-bottom: 150px;
         }
-        @media only screen and (max-width: 320px) {
-
-            body{
-                font-size: 0.8em;
-            }
-          
-}
-
 
     </style>
 </head>
@@ -95,7 +72,7 @@
 <body id="main">
     <h1 id="title">A swimming coach inspiration</h1>
     <div id="img-div">
-        <img src="photos/denis-cotterell.jpg" alt="my picture" id="image" >
+        <img src="" alt="my picture" id="image" >
         <div id="img-caption">Denis Cotterell</div>
         <div id="tribute-info">Denis Cotterell, a graduate in Physcial Education and a top-level coach in the Australian coach accreditation program, is one of a new breed of coaches who has studied both professionally and by association with top coaches throughout the world.
 
