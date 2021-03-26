@@ -10,10 +10,19 @@
 
     <style>
 
+        html{
+            background: linear-gradient(to right top, #6d7683, #3698b4, #00bcb8, #00da85, #a8eb12) no-repeat center center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+
         body{
-            font-family: 'Nunito', sans-serif;
-            background-image: linear-gradient(to right top, #6d7683, #3698b4, #00bcb8, #00da85, #a8eb12);
+            font-family: 'Nunito', sans-serif ;
             font-size: 1.5rem;
+            /* width: 100%; */
+            margin: 0;
         }
 
         #title{
@@ -22,8 +31,7 @@
         }
 
         #img-div{
-            text-align: center;
-            
+            text-align: center;   
         }
 
         #image{ 
@@ -35,35 +43,37 @@
             width: 25rem;
             height: auto;
             max-width: 100%;
+            /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
         }
 
         #img-caption{
             border-radius: 10px;
-            width:50%;
+            width: 100%;
             height: auto;
-            margin: 0 auto 3rem auto;
+            margin-top: 0;
+            margin-bottom: 3rem;
+            margin-left: auto;
+            margin-right: auto;
             font-weight: bold;
-            font-family: ;
-            font-size: 3rem;
+           
             text-transform: uppercase;
             align-items: center;
             transition: .2s ease-in-out;
-            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-            
+            /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+             */
         }
 
         #img-caption:hover{
             color:red;
             transition: 0.5s;
             transform: scale(1.1);
-            
-
         }
-        
 
-        #tribut-info{
+        #tribute-info{
+            max-width: 100%;
             align-items: center;
-            text-align: justify;
+            margin-left: 7rem;
+            margin-right: 7rem;
         }
 
     </style>
